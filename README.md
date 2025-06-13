@@ -7,12 +7,12 @@ Made this script because I have PostgreSQL's service set to manual.
 p.s **RUN THIS AS AN ADMINISTRATOR!**
 
 in
-```bash
+``bash
 if "%choice%"=="5" (
     echo Opening pgAdmin...
    ** start "" "C:\Program Files\PostgreSQL\17\pgAdmin 4\runtime\pgAdmin4.exe" **
     pause
     goto menu
 )
-edit your directory if needed
-```
+``` edit your directory if needed
+
