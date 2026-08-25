@@ -6,11 +6,11 @@ if %errorlevel% neq 0 (
     echo.
     pause
 )
-set SERVICE_NAME=postgresql-x64-17
+set SERVICE_NAME=postgresql-x64-18
 
 :menu
 cls
-echo PostgreSQL Service Control by Sxlken
+echo PostgreSQL Service Control by salk3n
 echo ---------------------------
 echo 1. Start Service
 echo 2. Stop Service
@@ -49,7 +49,7 @@ if "%choice%"=="4" (
 )
 if "%choice%"=="5" (
     echo Opening pgAdmin...
-    start "" "C:\Program Files\PostgreSQL\17\pgAdmin 4\runtime\pgAdmin4.exe"
+    start "" "C:\Program Files\PostgreSQL\18\pgAdmin 4\runtime\pgAdmin4.exe"
     pause
     goto menu
 )
