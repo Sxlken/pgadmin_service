@@ -7,7 +7,7 @@ in
 ```bash
 if "%choice%"=="5" (
     echo Opening pgAdmin...
-    start "" "C:\Program Files\PostgreSQL\17\pgAdmin 4\runtime\pgAdmin4.exe" 
+    start "" "C:\Program Files\PostgreSQL\18\pgAdmin 4\runtime\pgAdmin4.exe" 
     pause
     goto menu
 )
